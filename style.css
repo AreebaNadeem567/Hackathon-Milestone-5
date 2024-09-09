@@ -1,0 +1,69 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #333; /* Light pink background */
+    color: #8a5050;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    text-align: center;
+    color: #ff69b4; /* Hot pink */
+}
+
+form {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff; /* White background for the form */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+input, textarea, button {
+    display: block;
+    width: calc(100% - 20px);
+    margin: 10px auto;
+    padding: 10px;
+    border: 1px solid #ffa07a; /* Light orange border */
+    border-radius: 4px;
+}
+
+input:focus, textarea:focus {
+    border-color: #ff6347; /* Tomato color on focus */
+    outline: none;
+}
+
+button {
+    background-color: #ff69b4; /* Hot pink background */
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #ff1493; /* Deep pink */
+}
+
+#resume-content {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff; /* White background for resume content */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#resume-link {
+    text-align: center;
+    margin: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #ff6347; /* Tomato color for footer background */
+    color: white;
+}
